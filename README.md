@@ -2,6 +2,12 @@
 
 A foundational PostgreSQL implementation for automated data auditing. This project utilizes **PL/pgSQL triggers** to maintain a robust history of changes in sensitive user data.
 
+## Prerequisites
+
+- PostgreSQL 12+ installed
+- Basic familiarity with SQL
+- Privileges to create tables and triggers
+
 ## The Quick Start (ABC)
 This system acts as an automated "watcher" for your database tables.
 
@@ -48,6 +54,6 @@ While trigger-based auditing is excellent for integrity, it can impact performan
 ## Project Roadmap
 This is **Part 1** of a 3-part series on database auditing. Links will be updated as repositories go live:
 
-1.  ✅ **Basic Audit**: Manual column tracking (cOMMING).
-2.  🧪 **[JSONB Audit](https://github.com/IsraelVivancoC/sql-jsonb-audit)**: Dynamic tracking for any table (Coming Soon).
-3.  🏗️ **[High-Volume Audit](https://github.com/IsraelVivancoC/sql-partition-audit)**: Implementing **Table Partitioning** for scalability (Coming Soon).
+1.  **Basic Audit**: Manual column tracking (cOMMING).
+2.  **[JSONB Audit](https://github.com/IsraelVivancoC/sql-jsonb-audit)**: Dynamic tracking for any table (Coming Soon).
+3.  **[High-Volume Audit](https://github.com/IsraelVivancoC/sql-partition-audit)**: Implementing **Table Partitioning** for scalability (Coming Soon).
